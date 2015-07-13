@@ -8,7 +8,7 @@ A node.js webserver for the CoreNLP pipeline. Currently only returns parsed enti
 To run just start server.js (node server.js / js server.js)
 
 ## Requests
-Post to server:5000/nlp/ner/v1/.
+Post to server:8080/nlp/ner/v1/.
 
 If successful, a JSON response is given with *options* specifying which options were used to process the text as well as
 *entities*, a JSON object where keys are the entity type and values are the enitity names, and *tokens*, a list of terms.
