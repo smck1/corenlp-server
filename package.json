@@ -15,5 +15,5 @@
     "start": "node server.js"
   },
   "author": "Sean McKeown",
-  "license": "GPL-3.0"
+  "license": "GPL-2.0"
 }
