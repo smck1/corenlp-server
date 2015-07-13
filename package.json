@@ -1,0 +1,19 @@
+{
+  "name": "corenlp-server",
+  "version": "0.1.0",
+  "description": "A webserver for the Stanford CoreNLP pipeline.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "request": "^2.58.0",
+    "stanford-corenlp": "^0.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Sean McKeown",
+  "license": "GPL-3.0"
+}
