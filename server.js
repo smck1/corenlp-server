@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 
-app.post('/nlp/v1/', function(request, response) {
+app.post('/nlp/ner/v1/', function(request, response) {
   //var text = request.param('text');
   var text = request.body.text;
   var options = request.body.options;
