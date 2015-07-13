@@ -14,6 +14,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smck1/corenlp-server"
+  },
   "author": "Sean McKeown",
   "license": "GPL-2.0"
 }
